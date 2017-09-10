@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>keyJquery</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Join us</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="container" class="container">
+        <h1><strong>Key Property</strong></h1>
+        <div class="row selname">
+            <div class="col-md-2">Sell/Rent</div>
+            <div class="col-md-2">District</div>
+            <div class="col-md-2">Size</div>
+            <div class="col-md-2">Price</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <select id="selway" class="btn btn-warning dropdown-toggle selector">
+                    <option value="all">All</option>
+                    <option value="sell">sell</option>
+                    <option value="rent">rent</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select id="seldistrict" class="btn btn-primary dropdown-toggle selector">
+                    <option value="all">ALL</option>
+                    <option value="HK">HONG KONG</option>
+                    <option value="KL">KOWLOON</option>
+                    <option value="NT">NEW TERRITORIES</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select id="selsize" class="btn btn-success dropdown-toggle selector">
+                    <option value="all">ALL</option>
+                    <option value="S0">0-500'</option>
+                    <option value="S5">500-800'</option>
+                    <option value="S8">>800'</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <select id="selprice" class="btn btn-info dropdown-toggle selector">
+                    <option value="all">ALL</option>
+                    <option value="M0">$0-3M</option>
+                    <option value="M3">$3-5M</option>
+                    <option value="M5">$>5M</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="container" class="container">
+        <div id="property">
+            <div class="row">
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img class="img" src="" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="2.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="3.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img class="img" src="" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="2.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="3.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img class="img" src="" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="2.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="3.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img class="img" src="" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="2.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 category">
+                        <div class="thumbnail">
+                            <img src="3.jpg" alt="...">
+                            <div class="caption">
+                                <h3 id="name"></h3>
+                                <p id="slrt"></p>
+                                <p id="district"></p>
+                                <p id="size"></p>
+                                <p id="price"></p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">For detail</a></p>
+                            </div>
+                        </div>
+                    </div>    
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

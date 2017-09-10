@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<property>
+      <garden>
+            <category>all sell KL S5 M3</category>
+            <img>1.jpg</img>
+            <name>Sai Wan Estate</name>
+            <slrt>For sell</slrt>
+            <district>Kowloon</district>
+            <size>525'</size>   
+            <price>$4.95M</price>
+      </garden>
+      <garden>
+            <category>all sell NT S8 M5</category>
+            <img>2.jpg</img>
+            <name>Lai Tak Tsuen</name>
+            <slrt>For sell</slrt>
+            <district>New Territories</district>
+            <size>1005'</size>   
+            <price>$12.25M</price>
+      </garden>
+      <garden>
+            <category>all sell HK S0 M0</category>
+            <img>3.jpg</img>
+            <name>Fung Wah Estate</name>
+            <slrt>For sell</slrt>
+            <district>Hong Kong</district>
+            <size>190'</size>   
+            <price>$2.00M</price>
+      </garden>
+      <garden>
+            <category>all rent HK S0</category>
+            <img>4.jpg</img>
+            <name>Kwun Lung Lau</name>
+            <slrt>For rent</slrt>
+            <district>Hong Kong</district>
+            <size>400'</size>   
+            <price>$15000/months</price>
+      </garden>
+      <garden>
+            <category>all sell NT S5 M5</category>
+            <img>5.jpg</img>
+            <name>Hing Man Estate</name>
+            <slrt>For sell</slrt>
+            <district>New Territories</district>
+            <size>523'</size>   
+            <price>$5.55M</price>
+      </garden>
+      <garden>
+            <category>all sell KL S0 M0</category>
+            <img>6.jpg</img>
+            <name>Siu Sai Wan Estate</name>
+            <slrt>For sell</slrt>
+            <district>Kowloon</district>
+            <size>120'</size>   
+            <price>$1.20M</price>
+      </garden>
+      <garden>
+            <category>all sell KL S0 M0</category>
+            <img>7.jpg</img>
+            <name>Tsui Lok Estate</name>
+            <slrt>For sell</slrt>
+            <district>Kowloon</district>
+            <size>120'</size>   
+            <price>$1.20M</price>
+      </garden>
+      <garden>
+            <category>all rent KL S8</category>
+            <img>8.jpg</img>
+            <name>Tsui Wan Estate</name>
+            <slrt>For rent</slrt>
+            <district>Kowloon</district>
+            <size>850'</size>   
+            <price>$42000/months</price>
+      </garden>
+      <garden>
+            <category>all sell NT S5 M5</category>
+            <img>9.jpg</img>
+            <name>Wan Tsui Estate</name>
+            <slrt>For sell</slrt>
+            <district>New Territories</district>
+            <size>650'</size>   
+            <price>$7.80M</price>
+      </garden>
+      <garden>
+            <category>all sell NT S0 M3</category>
+            <img>10.jpg</img>
+            <name>Yue Wan Estate</name>
+            <slrt>For sell</slrt>
+            <district>New Territories</district>
+            <size>450'</size>   
+            <price>$4.85M</price>
+      </garden>
+      <garden>
+            <category>all sell HK S8 M5</category>
+            <img>11.jpg</img>
+            <name>Chai Wan Estate</name>
+            <slrt>For sell</slrt>
+            <district>Hong Kong</district>
+            <size>3000'</size>   
+            <price>$35.00M</price>
+      </garden>
+      <garden>
+            <category>all sell HK S5 M5</category>
+            <img>12.jpg</img>
+            <name>Wah Ha Estate</name>
+            <slrt>For sell</slrt>
+            <district>Hong Kong</district>
+            <size>700'</size>   
+            <price>$9.05M</price>
+      </garden>
+</property>
