@@ -11,7 +11,7 @@ Author: key
 
 Cauction: If you use Chrome browser, you must have a preset first.
 ![config](https://github.com/tavik000/Estate_Web_App/raw/master/Screenshots/Chrome_config.png)
-Add  --allow-file-access-from-files after .exe
+Add  `--allow-file-access-from-files` after .exe
 
 
 -----
